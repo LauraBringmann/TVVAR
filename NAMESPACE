@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+
+
+# Load packages
+
+#import(mgcv)
+#import(quantmod)
+#import(MASS)
+
+# Export functions
+export(GAM_TVVAR)
